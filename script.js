@@ -4,7 +4,7 @@ function verificar() {
     const yearOfBirth = document.querySelector('input#txtano')
     const val = document.querySelector('div#res')
 
-    if (yearOfBirth.value.length == 0 || yearOfBirth.value > year ) {
+    if (yearOfBirth.value.length == 0 || yearOfBirth.value > year || yearOfBirth.value <= 0 ) {
         window.alert ('Verifique os dados e tente novamente!')
     
     } else {
